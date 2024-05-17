@@ -2,7 +2,7 @@ $(document).ready(function() {
   // mostrar todos los clientes inicialmente
   mostrarClientes(clientes);
 
-  // filtrar clientes basados en la entrada de busqueda
+  // filtrar clientes basados en la entrada de busqueda.
   $("#searchInput").on("keyup", function() {
     let textoBusqueda = $("#searchInput").val().toLowerCase();
     let campoBusqueda = $("#searchField").val();
